@@ -87,7 +87,7 @@ Proof:
 Proof: It is not even an algebra. Let's assume that $C_k=[2^k,2^{k+1}]$ for $k=0,1,\ldots$. Define $A$ be the set of all odd numbers in $C_k$ for odd $k$ and all even numbers in $C_k$ for even $k$. Then $\lim_{n\rightarrow \infty} \mid A \cap \{1, 2,\ldots,n\}\mid /n = \frac{1}{2}$. Let $B=\{2,4,6,\ldots\}$, then $\lim_{n\rightarrow \infty} \mid B \cap \{1, 2,\ldots,n\}\mid /n = \frac{1}{2}$. Now consider $A\cap B$: This is the set of all even numbers in $[2^{2k},2^{2k+1}]$. In each interval like this, there are $2^k+1$ even numbers. If $n$ approaches $\infty$ in form of $2^{2k+1}$, then this limit turns to be $\frac{1}{3}$; and if $n$ approaches $\infty$ in form of $2^{2k}$, this limit turns to be $\frac{1}{6}$. This means this limit must diverge. i.e. $A\cap B$ does not have asymptotic density. Therefore, our set is not closed under finite intersection, it cannot be an algebra.
 
 
-Finished.
+
 
 
 
